@@ -4,7 +4,7 @@ var scbf = function(d,t){
 	s = d.getElementsByTagName(t)[0],
 	sf = 200,
 	st = 10000,
-	img = /_assets/img/design/;
+	img = '/_assets/img/design/';
 	
     var up = function()
     {
