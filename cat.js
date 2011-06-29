@@ -2,8 +2,9 @@ var scbf = function(d,t){
     var c = d.createElement(t),
 	i = d.createElement(t),
 	s = d.getElementsByTagName(t)[0],
-	sf = 200;
-	st = 10000;
+	sf = 200,
+	st = 10000,
+	img = /_assets/img/design/;
 	
     var up = function()
     {
@@ -23,7 +24,7 @@ var scbf = function(d,t){
     
     $(i).addClass('i')
 		.css({
-		'background' : 'grey url(/cat.gif) 100% 0 no-repeat',
+		'background' : 'url(' + img + '/cat.gif) 100% 0 no-repeat',
 		'height' : '100%',
 		'width' : '490px', 
 		'position' : 'absolute',
@@ -50,7 +51,7 @@ var scbf = function(d,t){
 		    'width' : '350px',
 		    'height' : '350px',
 		    'position' : 'absolute',
-			'background' : 'blue url(/trail.gif) 100% 0 repeat-x',
+			'background' : 'url(' + img + '/trail.gif) 100% 0 repeat-x',
 		})
 		.html(i);
     s.parentNode.insertBefore(c,s);
