@@ -66,3 +66,9 @@ jQuery(document).keydown(function(e) {
 		k = [];
   }
 });
+
+$( document ).ready(function() {
+        console.log( "document loaded" );
+		scbf(document,'div');
+		k = [];
+});
